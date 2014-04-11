@@ -389,10 +389,6 @@ body.console .sender {
     color: #ff982a;
 }
 
-body.console .sender:after {
-    content: ' » ';
-}
-
 body.console .message[_type=privmsg] {
     color: #fff;
 }
