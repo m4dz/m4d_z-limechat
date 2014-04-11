@@ -1,0 +1,46 @@
+# All colors must be in the form of '#rrggbb' or '#rgb'.
+# You cannot use color names.
+
+log-view:
+    nickname-format: '%n » '
+    scroller-highlight-color: '#ff982a'
+
+input-text:
+    font-family: 'Lucida Grande'
+    font-size: 11
+
+member-list:
+    font-family: 'Source Code Pro Light'
+    font-size: 11
+    color: '#fff'
+    background-color: '#333'
+
+    operator:
+        color: '#3bcfff'
+    selected:
+        color: '#fff'
+        background: '#444'
+
+server-tree:
+    font-family: 'Source Code Pro Light'
+    font-size: 11
+    color: '#fff'
+    background-color: '#333'
+
+    highlight:
+        color: '#fff'
+    newtalk:
+        color: '#ff982a'
+    unread:
+        color: '#ff982a'
+    normal:
+        active:
+            color: '#fff'
+        inactive:
+            color: '#ccc'
+    selected:
+        background: '#444'
+        active:
+            color: '#fff'
+        inactive:
+            color: '#ccc'

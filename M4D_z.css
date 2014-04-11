@@ -1,0 +1,398 @@
+html.normal,
+html.console {
+    color: #fff;
+    background-color: #333;
+    font: 11px/1.3em 'Source Code Pro' 'Menlo' sans-serif;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #0cf;
+}
+
+body.normal .sender[type=myself]:hover:before {
+    content: "» ";
+    color: #bebebe;
+}
+
+body.normal a img {
+    border: 0;
+}
+
+body.normal img {
+    display: block;
+    max-width: 95%;
+    -webkit-box-shadow: none;
+}
+
+body.normal .text span {
+    display: block;
+}
+
+body.normal .line {
+    padding: 0;
+    margin: 0;
+    line-height: 130%;
+}
+
+body.normal .event {
+    padding: 0.65em 0.2em 0.65em 0.55em;
+    margin: 0;
+    color : #3bcfff;
+    border-top : 1px dashed #3bcfff;
+    border-bottom : 1px dashed #3bcfff;
+}
+
+body.normal .event:before {
+    content: '//'
+}
+
+body.normal .event + .event {
+    border-top: none;
+}
+
+body.normal .text + .event {
+    margin-top: 0.33em;
+}
+
+body.normal .sender {
+    padding: 0.4em 4px 0.4em 0;
+    float: left;
+    text-align: right;
+    font-weight: bold;
+    width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+body.normal .line .message {
+    margin: 0 0 0 134px;
+    padding: 0.4em;
+    border-left: 1px solid #444;
+}
+
+body.normal .event .message {
+    margin: 0;
+    padding: 0.4em;
+    border: 0;
+    color: #3bcfff;
+    background: none;
+}
+
+body.normal .line .time {
+    float: right;
+    margin-right: 6px;
+    margin-top: 5px;
+    margin-left: 4px;
+    color: #ccc;
+}
+
+body.normal .line .place {
+    display: block;
+    color: #999;
+    margin: 0;
+    font-size: 12px;
+}
+
+body.normal .event .time {
+    margin: 1px 3px;
+    float: right;
+    text-align: right;
+    font-size: 11px;
+    color: #3bcfff;;
+}
+
+body.normal .line[highlight=true] span.message {
+    background-color: #ffc;
+    color: #333;
+}
+
+body.normal .member {
+    text-decoration: none !important;
+    color: inherit !important;
+}
+
+body.normal .member:hover {
+    text-decoration: underline;
+}
+
+body.normal {
+
+}
+
+body.console {
+
+}
+
+body[type=channel] {
+
+}
+
+body[type=talk] {
+
+}
+
+body[type=console] {
+
+}
+
+body.normal hr {
+    margin: 0;
+    padding: 2px;
+    border: none;
+    background-color: #d33b54;
+    height: 2px;
+    text-align: center;
+}
+
+/* lines */
+
+.line[alternate=even] {
+
+}
+
+.line[alternate=odd] {
+
+}
+
+.line[type=action] .sender:before {
+    content: "";
+}
+
+body.normal .line[type=action] .sender {
+    font-style: italic;
+}
+
+body.normal .line[type=action] .message {
+    border-left: none;
+    margin: 0 0 0 130px;
+}
+
+body.normal .url {
+    word-break: break-all;
+}
+
+body.normal .address {
+    text-decoration: underline;
+    word-break: break-all;
+}
+
+body.normal .highlight {
+    color: #d33b54;
+    font-weight: bold;
+}
+
+/* nickname for text messages */
+
+body.normal .sender[type=myself] {
+    color: #fff227;
+}
+
+body.normal .sender[type=myself]:after {
+    color: #fff227;
+}
+
+body.normal [type=myself],
+body.normal .sender[type=myself] + .message {
+    background-color: #f5f5f5;
+}
+
+body.normal .sender[type=normal] {
+    color: #ff982a;
+}
+
+body.normal .sender[first=false] {
+    margin-right: 0;
+    color: #333 !important;
+}
+
+body.normal .sender[first=false]:after {
+    content:"»";
+    color: #ff982a;
+}
+
+body.normal .sender[type=normal][colornumber='0'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='1'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='2'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='3'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='4'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='5'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='6'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='7'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='8'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='9'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='10'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='11'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='12'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='13'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='14'] {
+
+}
+
+body.normal .sender[type=normal][colornumber='15'] {
+
+}
+
+/* message body */
+
+body.normal .message[type=system] {
+
+}
+
+body.normal .message[type=error] {
+
+    font-weight: bold;
+}
+
+body.normal .message[type=reply] {
+
+}
+
+body.normal .message[type=error_reply] {
+
+}
+
+body.normal .message[type=dcc_send_send] {
+
+}
+
+body.normal .message[type=dcc_send_receive] {
+
+}
+
+body.normal .message[type=privmsg] {
+
+}
+
+body.normal .message[type=notice] {
+
+}
+
+body.normal .message[type=action] {
+
+    font-style: italic;
+    font-weight: bold;
+}
+
+body.normal .message[type=join] {
+
+}
+
+body.normal .message[type=part] {
+
+}
+
+body.normal .message[type=kick] {
+
+}
+
+body.normal .message[type=quit] {
+
+}
+
+body.normal .message[type=kill] {
+
+}
+
+body.normal .message[type=nick] {
+
+}
+
+body.normal .message[type=mode] {
+
+}
+
+body.normal .message[type=topic] {
+
+}
+
+body.normal .message[type=invite] {
+
+}
+
+body.normal .message[type=wallops] {
+
+}
+
+body.normal .message[type=debug_send] {
+
+}
+
+body.normal .message[type=debug_receive] {
+
+}
+
+/* console */
+
+body.console .time {
+    color: #ccc;
+}
+
+body.console .place {
+    color: #3bcfff;
+}
+
+body.console .message {
+    color: #fff;
+}
+
+body.console .message {
+    color: #3bcfff;
+}
+
+body.console .sender {
+    color: #ff982a;
+}
+
+body.console .sender:after {
+    content: ' » ';
+}
+
+body.console .message[_type=privmsg] {
+    color: #fff;
+}
