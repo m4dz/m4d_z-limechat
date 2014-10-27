@@ -6,11 +6,10 @@ log-view:
     scroller-highlight-color: '#ff982a'
 
 input-text:
-    font-family: 'Helvetica Neue'
     font-size: 11
 
 member-list:
-    font-family: 'Source Code Pro Light'
+    font-family: 'Input'
     font-size: 11
     color: '#fff'
     background-color: '#333'
@@ -22,7 +21,7 @@ member-list:
         background: '#444'
 
 server-tree:
-    font-family: 'Source Code Pro Light'
+    font-family: 'Input'
     font-size: 11
     color: '#fff'
     background-color: '#333'
